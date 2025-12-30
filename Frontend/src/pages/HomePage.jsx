@@ -35,10 +35,10 @@ function HomePage() {
             is always safe."
           />
         </section>
-        <footer>
-          <Footer />
-        </footer>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </section>
   );
 }
