@@ -4,8 +4,8 @@ import {
   loginSuccess,
   loginFailure,
   logout as logoutAction,
-} from "../userSlice";
-import { loginUser, getUserProfile } from "../api/authApi";
+} from "../redux/userSlice";
+import { loginUser, getUserProfile } from "../services/api";
 import { useNavigate } from "react-router-dom";
 
 export const useAuth = () => {

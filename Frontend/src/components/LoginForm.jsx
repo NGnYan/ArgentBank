@@ -12,7 +12,7 @@ function LoginForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const loginResult = await login(email, password);
+    await login(email, password);
   };
 
   return (
