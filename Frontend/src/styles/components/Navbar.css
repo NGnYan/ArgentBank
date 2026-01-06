@@ -5,9 +5,16 @@
   padding: 0px 15px;
 }
 
+.main-nav button,
 .main-nav a {
   font-weight: bold;
   color: #2c3e50;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
 }
 
 .main-nav a.router-link-exact-active {
