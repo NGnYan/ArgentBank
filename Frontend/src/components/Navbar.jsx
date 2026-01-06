@@ -21,10 +21,10 @@ function Navbar() {
           <i className="fa fa-user-circle"></i>
           {user?.firstName}
         </Link>
-        <a className="main-nav-item" onClick={handleLogout}>
+        <button className="main-nav-item" onClick={handleLogout}>
           <i className="fa fa-sign-out"></i>
           Sign Out
-        </a>
+        </button>
       </>
     );
   } else {
