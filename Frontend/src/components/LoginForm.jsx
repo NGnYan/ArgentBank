@@ -55,14 +55,7 @@ function LoginForm() {
           <label htmlFor="remember-me">Remember me</label>
         </div>
 
-        {error && (
-          <div
-            className="error-message"
-            style={{ color: "red", marginBottom: "1rem" }}
-          >
-            {error}
-          </div>
-        )}
+        {error && <div className="error-message">{error}</div>}
         <button className="sign-in-button" type="submit" disabled={loading}>
           Sign In
         </button>
